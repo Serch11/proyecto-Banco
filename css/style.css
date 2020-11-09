@@ -1,0 +1,156 @@
+body{
+	background-color: white;
+	font: bold;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+h1{
+	font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 15%; */
+	font-family: fantasy;
+	color: #290001;
+}
+section{
+	margin: auto;
+	width: 700px;
+	height: 550px;
+
+}
+form{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.formulario{
+	background-color: peru;
+	border: 10px solid #290001;
+	width: 100%;
+	height: 100%;
+  padding: 16px;
+  border-radius: 10px;
+	margin: inherit;
+	margin-top: 30px;
+}
+
+label{
+	display: flex;
+	justify-content:left;
+	width: 70%;
+	font-weight: bold;
+	font-style: italic;
+	height: 20px;
+}
+input[type='text'] , select{
+	width: 90%;
+	height: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+select{
+
+	height: 28px;
+}
+.submit{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30%;
+	padding: 20px;
+}
+.limpiar{
+
+}
+.guardar
+{
+
+}
+input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	border: 3px solid #290001 ;
+	border-radius: 10px;
+	background-color: transparent;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px;
+
+
+}
+.link{
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	background-color: peru;
+	border: 10px solid #290001;
+	padding: 16px;
+	border-radius: 10px;
+	flex-wrap: wrap;
+	
+	
+}
+
+.link-index{
+
+	width: 100px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px;
+	cursor: pointer;
+	margin: 10px;
+	
+}
+
+.link-index img{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+.regresar{
+
+	text-decoration: none;
+	float: right;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	border: 4px solid  #290001;
+	border-radius: 5px;
+	padding: 5px;
+}
+.transfer{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+
+}
+.div-transfer{
+	    border: 10px solid #220001;
+			padding:10px;
+			background-color: peru;
+}
+
+.form-transfer label ,input{
+		border-radius: 10px;
+		padding: 10px;
+		display: flex;
+		margin-top: 10px
+}
+.select-transfer{
+	width: 96%;
+}
+
